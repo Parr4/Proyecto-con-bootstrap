@@ -12,7 +12,8 @@ marron: #673036
 */
 
 
-img .destacado{
-    width: auto;
+img.destacado{
+    max-width: 100%;
+    maxhe
 }
 
