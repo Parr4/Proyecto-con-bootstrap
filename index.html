@@ -15,42 +15,41 @@
 
 </head>
 <body>
-    <header>
         <!-- nav -->
-        <nav class="navbar navbar-dark navbar-expand-lg " style="background-color:#FD7F02; color: black;">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">
-                    <img src="img/shaman king.webp" alt="Logo" width="37" height="24" class="d-inline-block align-text-top">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarScroll">
-                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Catalogo</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Ubicacion</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contacto</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Preguntas frecuentes</a>
-                        </li>
-                    </ul>
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Buscar producto" aria-label="Search">
-                        <button class="btn btn-outline-secondary" type="submit" style="color: white;">Buscar</button>
-                    </form>
-                </div>
-            </div>
-        </nav>
-        
+  <nav class="navbar sticky-top navbar-dark navbar-expand-lg" style="background-color:#FD7F02; color: black;">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+        <img src="img/shaman king.webp" alt="Logo" width="37" height="24" class="d-inline-block align-text-top">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Catalogo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Ubicacion</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contacto</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#">Preguntas frecuentes</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Buscar producto" aria-label="Search">
+            <button class="btn btn-outline-secondary" type="submit" style="color: white;">Buscar</button>
+          </form>
+        </div>
+    </div>
+  </nav>
+  <header>
         <!-- Carrusel de ofertas -->
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
             <div class="carousel-indicators">
@@ -90,7 +89,7 @@
               <span class="visually-hidden">Next</span>
             </button>
           </div>
-    </header>
+  </header>
 
 <!-- Main -->
   <main>
@@ -107,9 +106,9 @@
       </div>
     </div>
 
-    <h2 style="background-color:#673036 ;"> Los mas vendidos!</h2>
+    <h2> Los mas vendidos!</h2>
 
-    <div class="container" style="margin-top: 40px; margin-bottom:40px;">
+    <div  data-aos="fade-right" class="container" style="margin-top: 40px; margin-bottom:40px;">
       <div class="card-group">
         <div class="card producto">
           <img src="img/productouno.jpg" class="card-img-top" alt="Shaman king 27">
@@ -154,13 +153,83 @@
       </div>
     </div>
 
+    <h2> Recien llegados!</h2>
 
+    <div  data-aos="fade-right" class="container" style="margin-top: 40px; margin-bottom:40px;">
+      <div class="card-group">
+        <div class="card producto">
+          <img src="img/productotres.jpg" class="card-img-top" alt="Shuumatsu 4">
+          <div class="card-body">
+            <h5 class="card-title">Shuumatsu No Valkyrie 4</h5>
+            <p class="card-text">Editorial Ivrea Argentina</p>
+            <a href="#" class="btn btn-primary">Añadir al carrito</a>
+          </div>
+        </div>
+        <div class="card producto">
+          <img src="img/productoseis.jpg" class="card-img-top" alt="Vinland Saga 2">
+          <div class="card-body">
+            <h5 class="card-title">Vinland Saga 2</h5>
+            <p class="card-text">Editorial Ovni-Press - Tomo 2 en 1</p>
+            <a href="#" class="btn btn-primary">Añadir al carrito</a>
+          </div>
+        </div>
+        <div class="card producto">
+          <img src="img/productouno.jpg" class="card-img-top" alt="Shaman king 27">
+          <div class="card-body">
+            <h5 class="card-title">Shaman King 27</h5>
+            <p class="card-text">Editorial Panini Mexico</p>
+            <a href="#" class="btn btn-primary">Añadir al carrito</a>
+          </div>
+        </div>
+        <div class="card producto">
+          <img src="img/productodos.jpg" class="card-img-top" alt="Shaman king 16">
+          <div class="card-body">
+            <h5 class="card-title">Shaman King 16</h5>
+            <p class="card-text">Editorial Panini Mexico</p>
+            <a href="#" class="btn btn-primary">Añadir al carrito</a>
+          </div>
+        </div>
+        <div class="card producto">
+          <img src="img/productocuatro.jpg" class="card-img-top" alt="Jujutsu kaisen 11">
+          <div class="card-body">
+            <h5 class="card-title">Jujutsu kaisen 11</h5>
+            <p class="card-text">Editorial Panini Mexico</p>
+            <a href="#" class="btn btn-primary">Añadir al carrito</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="ubi row" style="align-items: center; margin:auto">
+      <div class="intro-text">
+        <h3 class="display-6" data-aos="fade-right">Te gusta ver lo que compras antes de pagarlo?</h3>
+        <p class="lead" data-aos="fade-right">Entonces ven y conoce nuestra tienda!</p>
+        <a data-aos="fade-right" style="color: #FD7F02 ;" href="ubicacion/ubicacion.html"><h3 class="display-6"> Conoce la ubcacion de nuestra tienda aca!</h3></a>
+        <br>
+      </div>
+    </div>
+
+    <footer class="container-fluid">
+      <div class="footer row">
+        <div class="col-6">
+          <h3>CONTACTO</h3>
+          <p>-CORREO: contacto@shamanmanga.cl</p>
+          <p>-HORARIO DE ATENCION: Lunes a viernes, desde las 10:00 am hasta las 18:00 hrs.</p>
+        </div>
+        <div class="col-6">
+          <h3 class="rrss">REDES SOCIALES</h3>
+          <ul class="rrss">
+            <li><a href="https://www.Instagram.com"><img class="logo" src="img/ig-logo.png" alt="Instagram"></a></li>
+            <li><a href="https://facebook.com"><img class="logo" src="img/fb-logo.png" alt="Facebook"></a></li>
+            <li><a href="https://facebook.com"><img class="logo" src="img/wsp-logo.png" alt="Whatsapp"></a></li>
+          </ul>
+        </div>
+      </div>
+      <p style="margin:0 ;">© 2022 Shaman manga store - Francisco Parra (Autor)</p>
+    </footer>
+ 
   </main>
-
-
-
-
-
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     <!-- aos script -->
