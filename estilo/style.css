@@ -68,6 +68,12 @@ h2{
     background-position: center;
 }
 
+.introfaq{
+    background-image: url(../img/questionhd.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
 .ubi{
     background-image: url(../img/onpiecehd1.png);
     background-size: cover;
@@ -121,7 +127,6 @@ h2{
     color: white;
     text-align: center;
     margin: auto;
-    /* padding-top: 30%; */
     font-weight: bolder;
     text-transform: uppercase;
     text-shadow: 2px 0 black, -2px 0 black, 0 2px black, 0 -2px black, 1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
@@ -168,4 +173,44 @@ footer{
 
 .catalogo{
     justify-content: center;
+}
+
+.botfooter{
+    color: white;
+    border: 2px #fd7f02 solid;
+    background-color: #673036;
+    margin-top: 20px;
+    padding: 5px;
+    transition: all .1s ease-in-out;
+}
+
+.botfooter:hover{
+    transform: scale(1.10);
+    z-index: 100;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    filter: grayscale(0.7);
+}
+.pregunta{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-shadow: 2px 0 black, -2px 0 black, 0 2px black, 0 -2px black, 1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
+    color: white;
+    background-color: #fd7f02e1;
+    border: black 2px solid;
+    text-align: center;
+    justify-content: center;
+    max-width: fit-content;
+    margin: auto;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+article p{
+    padding: 20px;
+    text-align: start;
+    background-color: rgba(0, 0, 0, 0.555);
+    color: white;
+    border: 2px black solid;
+    background-size: cover;
+    margin-top: 5px;
 }
