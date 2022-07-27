@@ -114,6 +114,7 @@ h2{
 
 .producto{
     margin: 10px;
+    padding: 10px;
     transition: all .1s ease-in-out;
 }
 
@@ -122,6 +123,22 @@ h2{
     z-index: 100;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
+.producto:hover img{
+    filter: saturate(1.8)
+}
+
+.producto:hover .btn{
+    background-color: #673036;
+    border: 1px black solid;
+}
+
+.card{
+    padding: 0;
+    margin: 0;
+    margin-top: 15px;
+}
+
+
 
 .genero{
     margin: 0;
@@ -263,3 +280,31 @@ form.contactoo{
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     filter: grayscale(0.7);
 }
+
+.wsp img{
+    width: 100px;
+    right: 30px;
+    transition: all .1s ease-in-out;
+}
+
+
+
+.wsp {
+    right: 30px;
+    left: auto;
+    bottom: 30px;
+}
+
+.wsp img{
+    transition: all .2s ease-in-out;
+}
+
+.wsp img:hover{
+    transform: scale(1.25);
+}
+
+.btn{
+    background-color: #fd7f02;
+    border: 1px solid black;
+}
+
