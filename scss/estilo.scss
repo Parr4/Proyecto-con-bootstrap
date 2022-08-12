@@ -277,6 +277,32 @@ img.destacado{
     margin: 40px 0 40px 0;
 }
 
+.page-item{
+    margin-top: 40px;
+
+    a{
+        color: #FD7F02;}
+}
+
+.accordion{
+    margin: auto;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.accordion-item{
+    margin: 0 80px 0 80px;
+}
+
+.accordion-button{
+    &:focus{box-shadow: none;}
+    
+    &:not(.collapsed) {background-color: #fd7f02d5;
+    color: black;
+    font-weight: bold;
+    }
+}
 
 // map
 $colors: (
