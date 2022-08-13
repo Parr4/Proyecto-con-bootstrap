@@ -78,6 +78,11 @@ h1, h2 {
 h2 {
   font-size: 2rem; }
 
+h3 {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: bold; }
+
 .intro-text {
   background-color: rgba(0, 0, 0, 0.767);
   color: white;
@@ -90,7 +95,8 @@ h2 {
     padding-bottom: 35px;
     transition: all .3s ease-in-out; }
     .intro-text a h3:hover {
-      transform: scale(1.2); }
+      transform: scale(1.2);
+      text-decoration: underline; }
 
 .overtexto {
   color: white;
@@ -179,9 +185,33 @@ article p {
   background-size: cover;
   margin-top: 5px; }
 
-form.contactoo {
+.contactoo {
   justify-content: center;
-  padding: 40px 0 40px 0; }
+  margin: auto;
+  padding: 50px 70px 80px 70px; }
+
+.formulario {
+  margin-bottom: 60px; }
+  .formulario button {
+    transition: all .1s ease-in-out;
+    margin: 10px 20px 10px 20px; }
+    .formulario button.send:hover {
+      background-color: white;
+      color: #FD7F02;
+      border: #FD7F02 solid 1px;
+      font-weight: bold;
+      transform: scale(1.1); }
+    .formulario button.clear {
+      background-color: #673036; }
+      .formulario button.clear:hover {
+        background-color: black;
+        border: 1px black solid;
+        transform: scale(1.1); }
+
+.hover {
+  transition: all .1s ease-in-out; }
+  .hover:hover {
+    transform: scale(1.1); }
 
 .formularioInterno {
   width: 80%;
@@ -266,6 +296,10 @@ img.destacado {
 .btn {
   background-color: #fd7f02;
   border: 1px solid black; }
+  .btn:focus {
+    background-color: #673036;
+    box-shadow: none;
+    border: 1px black solid; }
 
 .contentcenter {
   justify-content: center;

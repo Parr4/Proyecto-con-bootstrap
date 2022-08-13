@@ -33,7 +33,12 @@ h1{
 h2{
 @extend h1 ;
 font-size: 2rem;
+}
 
+h3{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 .intro-text{
@@ -51,6 +56,7 @@ font-size: 2rem;
         
         &:hover{
             transform: scale(1.2);
+            text-decoration: underline;
         }
     }
 }
@@ -157,10 +163,47 @@ article{
     }
 }
 
-form.contactoo{
+.contactoo{
     justify-content: center;
-    padding: 40px 0 40px 0;
+    margin: auto;
+    padding: 50px 70px 80px 70px;
 }
+
+.formulario{
+    margin-bottom: 60px;
+
+    button{
+        transition:all .1s ease-in-out;
+        margin: 10px 20px 10px 20px ;
+        &.send:hover{
+            background-color: white;
+            color: #FD7F02;
+            border: #FD7F02 solid 1px;
+            font-weight: bold;
+            transform: scale(1.1)
+        }
+        
+        &.clear{
+            background-color: #673036;
+
+            &:hover{
+                background-color: black;
+                border: 1px black solid;
+                transform: scale(1.1)
+            }
+        }
+
+    }
+}
+
+.hover{
+    transition:all .1s ease-in-out;
+    &:hover{
+        transform: scale(1.1)
+    }
+}
+
+
 
 .formularioInterno{
     width: 80%;
@@ -266,6 +309,11 @@ img.destacado{
 .btn{
     background-color: #fd7f02;
     border: 1px solid black;
+    &:focus{
+        background-color: #673036;
+        box-shadow: none;
+        border: 1px black solid;
+    }
 }
 
 .contentcenter{
