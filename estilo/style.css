@@ -63,6 +63,10 @@ footer {
   padding: 30px 10% 30px 10%; }
 
 /* general */
+.storelogo {
+  width: 80px;
+  height: auto; }
+
 h1, h2 {
   background-color: #fd7f02e1;
   text-transform: uppercase;
@@ -98,6 +102,11 @@ h3 {
       transform: scale(1.2);
       text-decoration: underline; }
 
+h5 {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1rem; }
+
 .overtexto {
   color: white;
   text-align: center;
@@ -120,14 +129,16 @@ h3 {
   .producto:hover .btn {
     background-color: #673036;
     border: 1px black solid; }
+  .producto.card {
+    padding: 7px;
+    margin: 5px; }
 
 .genero {
   margin: auto;
   justify-content: center;
-  overflow: hidden;
   padding: 0;
   margin: 5px;
-  overflow-x: hidden;
+  border: 1px black solid;
   transition: all .1s ease-in-out; }
   .genero:hover {
     transform: scale(1.1);
@@ -137,8 +148,6 @@ h3 {
 
 .genecatalog {
   margin: auto;
-  overflow-x: hidden;
-  overflow-y: hidden;
   padding: 25px 0px 25px 0px;
   justify-content: center; }
 
@@ -273,6 +282,15 @@ article p {
 img.destacado {
   max-width: 100vw; }
 
+.video {
+  margin-top: 30px;
+  margin-bottom: 100px; }
+
+.faq {
+  margin-top: 60px;
+  margin-bottom: 100px;
+  text-align: left; }
+
 /* Modificaciones al BS */
 .navbar {
   background-color: #FD7F02;
@@ -289,7 +307,7 @@ img.destacado {
   text-transform: uppercase; }
 
 .card {
-  padding: 0;
+  padding: 0px;
   margin: 0;
   margin-top: 15px; }
 
@@ -300,6 +318,12 @@ img.destacado {
     background-color: #673036;
     box-shadow: none;
     border: 1px black solid; }
+  .btn:hover {
+    background-color: #673036;
+    border: 1px solid black; }
+  .btn.btn-secondary:hover {
+    background-color: gray;
+    border: black 1px solid; }
 
 .contentcenter {
   justify-content: center;
